@@ -1,3 +1,4 @@
-<body>
-    <h3><%= skill.skill %></h3>
-</body>
+<%- include('../partials/header')%>
+    <h2><%= skill.skill %></h2>
+    <a href="/skills/<%=skill.id%>/edit">Edit Skill</a>
+<%-include('../partials/footer')%>
